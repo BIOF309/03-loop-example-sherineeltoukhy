@@ -1,0 +1,12 @@
+# importing packages
+import numpy as np
+import pandas as pd
+
+# reading in my CSV file containing tweets
+tweets = pd.read_csv('C://Users//eltoukhysm//BIOF309_Fall2017//Assignments//Loop_assignment//tweets.csv', index col = 0)
+
+# creating the loop
+index = []
+for i in range(len(tweets['idstr']):
+    if np.logical_and(tweets['favorite_count'] =! 0, ['retweet_count'] =! 0)
+    index.append()
